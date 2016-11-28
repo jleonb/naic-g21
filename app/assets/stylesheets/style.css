@@ -1,8 +1,3 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "font-awesome-sprockets";
-@import "font-awesome";
-
 /*-----------------------------------------------------------------------------------
 	    g21
         Built with Blocs
@@ -466,49 +461,49 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Bloc image backgrounds */
 
 .bg-Casa{
-	background-image: url('/assets/casa.jpg');
+	background-image:url("img/Casa.jpg");
 }
 .bg-rayos{
-	background-image:url('/assets/rayos.jpg');
+	background-image:url("img/rayos.jpg");
 }
 .bg-arquitectura-viva{
-	background-image:url('/assets/arquitectura-viva.jpg');
+	background-image:url("img/arquitectura-viva.jpg");
 }
 .bg-multi-salas{
-	background-image:url('/assets/multi-salas.jpg');
+	background-image:url("img/multi-salas.jpg");
 }
 .bg-huerto{
-	background-image:url('/assets/huerto.jpg');
+	background-image:url("img/huerto.jpg");
 }
 .bg-gourmet-{
-	background-image:url('/assets/gourmet_.jpg');
+	background-image:url("img/gourmet_.jpg");
 }
 .bg-arte-luz{
-	background-image:url("/assets/arte_luz.jpg");
+	background-image:url("img/arte_luz.jpg");
 }
 .bg-cuerpo-alma{
-	background-image:url("/assets/cuerpo-alma.jpg");
+	background-image:url("img/cuerpo-alma.jpg");
 }
 .bg-rayos{
-	background-image:url('/assets/rayos.jpg');
+	background-image:url('img/rayos.jpg');
 }
 .bg-arquitectura-viva{
-	background-image:url('/assets/arquitectura-viva.jpg');
+	background-image:url('img/arquitectura-viva.jpg');
 }
 .bg-gourmet-{
-	background-image:url('/assets/gourmet_.jpg');
+	background-image:url('img/gourmet_.jpg');
 }
 .bg-huerto{
-	background-image:url('/assets/huerto.jpg');
+	background-image:url('img/huerto.jpg');
 }
 .bg-arte-luz{
-	background-image:url('/assets/arte_luz.jpg');
+	background-image:url('img/arte_luz.jpg');
 }
 .bg-multi-salas{
-	background-image:url('/assets/multi-salas.jpg');
+	background-image:url('img/multi-salas.jpg');
 }
 .bg-cuerpo-alma{
-	background-image:url('/assets/cuerpo-alma.jpg');
+	background-image:url('img/cuerpo-alma.jpg');
 }
 
 a{
@@ -538,11 +533,9 @@ a:visited {
 		max-width:80%
     }
 	.nav-center.navbar .nav{
-		max-width:100%
-	}
-
+		max-width:100%}
+    }
 }
-
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
 @media (max-width: 768px)
 {
